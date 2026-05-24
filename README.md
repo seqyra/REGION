@@ -260,5 +260,3 @@ Large worlds can create large embedded JSON. Export the raw JSON separately for 
 
 REGION is released under the MIT License.
 =======
-# REGION
->>>>>>> fe0f0e12b364a12246babec2a9a72b41b8b6d18d
