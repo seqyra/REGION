@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>REGION - Minecraft World Intelligence</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <nav class="nav">
+      <div class="brand">REGION</div>
+      <a href="https://github.com/seqyra/REGION">GitHub</a>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Local Minecraft World Analysis Platform</p>
+        <h1>Resource Exploration & Geographic Information Observatory Network</h1>
+        <p class="lead">
+          REGION analyzes local Minecraft Java world files and generates standalone geographic intelligence reports with explored chunks, player data, structures, dimensions, and exportable map viewers.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="https://github.com/seqyra/REGION">View Repository</a>
+          <a class="button secondary" href="#run">Run Locally</a>
+        </div>
+      </div>
+      <div class="terminal" aria-label="REGION preview">
+        <div class="terminal-bar"><span></span><span></span><span></span></div>
+        <pre><code>REGION OBSERVATORY ONLINE
+
+World intake: ZIP, folders, MCA
+Chunks indexed: 48,192
+Regions mapped: 146
+Dimensions: overworld, nether, end
+Export: standalone HTML viewer</code></pre>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article>
+        <span>01</span>
+        <h2>Local Uploads</h2>
+        <p>Analyze worlds, backups, region files, datapacks, and generated data from files you control.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>Interactive Maps</h2>
+        <p>Render explored chunks, chunk boundaries, density, heatmaps, dimensions, and structure overlays.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>Export System</h2>
+        <p>Generate standalone HTML viewers, JSON analysis, and compact statistics for sharing or archiving.</p>
+      </article>
+    </section>
+
+    <section class="panel" id="run">
+      <div>
+        <p class="eyebrow">GitHub Pages Notice</p>
+        <h2>Run the full analyzer locally</h2>
+        <p>
+          This GitHub Pages site is a static project page. The full REGION analyzer uses a local Node.js backend, so uploads and world processing must run on your computer.
+        </p>
+      </div>
+      <pre><code>git clone https://github.com/seqyra/REGION.git
+cd REGION
+npm install
+npm start
+
+open http://127.0.0.1:4177</code></pre>
+    </section>
+  </main>
+</body>
+</html>
